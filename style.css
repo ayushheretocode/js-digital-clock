@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('fonts/digital-7.ttf') format('truetype');
+}
+
+#clock{
+    width: 330px;
+    font-family: 'CustomFont',sans-serif;
+    font-size: 72px;
+    padding: 16px 20px;
+    background-color: black;
+    color: #00FF00;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
